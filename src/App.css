@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darkgoldenrod;
+}
+
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
