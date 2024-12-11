@@ -7,7 +7,7 @@ function App() {
     <div className='container'>
       <div className='calculator'>
         <form action="">
-          <div>
+          <div className='display'>
              
            <input type='text'></input>
           </div>
@@ -27,7 +27,19 @@ function App() {
             <input type='button' value="6"/>
             <input type='button' value="5"/>
             <input type='button' value="4"/>
+            <input type='button' value="+"/>
+          </div>
+          <div>
+            <input type='button' value="1"/>
+            <input type='button' value="2"/>
+            <input type='button' value="3"/>
             <input type='button' value="-"/>
+          </div>
+          <div>
+            <input type='button' value="00"/>
+            <input type='button' value="0"/>
+            <input type='button' value="="/>
+           
           </div>
         </form>
       </div>
